@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "reservations": [
+    {
+      "workspace": "Oficina 1",
+      "date": "2026-06-27",
+      "startHour": "10:21",
+      "endHour": "11:21",
+      "reason": "wew",
+      "userId": "1",
+      "status": "approved",
+      "id": "MoxJvE_Kk_Y"
+    },
+    {
+      "workspace": "Oficina 1",
+      "date": "2026-06-27",
+      "startHour": "11:22",
+      "endHour": "13:22",
+      "reason": "wqrq",
+      "userId": "1",
+      "status": "rejected",
+      "id": "bjUP8vMUypI"
+    },
+    {
+      "workspace": "Coworking",
+      "date": "2026-06-25",
+      "startHour": "10:50",
+      "endHour": "11:50",
+      "reason": "Hay un bug en la pagina, necesitamos hablar de eso.",
+      "userId": "2",
+      "status": "pending",
+      "id": "coUJ9adys-w"
+    },
+    {
+      "workspace": "Sala B",
+      "date": "2026-06-16",
+      "startHour": "10:53",
+      "endHour": "13:53",
+      "reason": "Fiesta de cumpleaños de nuestro compañero.",
+      "userId": "2",
+      "status": "approved",
+      "id": "JO_gaeLRD1A"
+    },
+    {
+      "workspace": "Sala A",
+      "date": "2026-06-22",
+      "startHour": "14:54",
+      "endHour": "18:54",
+      "reason": "Fiesta empresarial.",
+      "userId": "3",
+      "status": "rejected",
+      "id": "ayJJ83oRpWw"
+    },
+    {
+      "workspace": "Auditorio",
+      "date": "2026-06-17",
+      "startHour": "15:57",
+      "endHour": "20:57",
+      "reason": "Presentación del proyecto integrador",
+      "userId": "1",
+      "status": "pending",
+      "id": "6kqTiwaOFVk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
