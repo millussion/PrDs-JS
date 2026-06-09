@@ -13,7 +13,7 @@ const request = async (endpoint, options = {}) => {
       throw new Error(`HTTP Error ${response.status}`);
     }
 
-    // Si no hay contenido, no intentar parsear JSON
+    
     if (response.status === 204) {
       return null;
     }
